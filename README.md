@@ -16,7 +16,7 @@ A reasonable description of the degradation process is essential for credible re
 
 Keywords: Accelerated degradation testing; Fractional Brownian motion; Unit-to-unit variability; EM algorithm; Memory effect; Tuner reliability analysis.
 
-Highlights
+# Highlights
 
 A non-Markovian accelerated degradation model with memory effect is developed.
 
@@ -30,7 +30,7 @@ The proposed statistical analysis method gives a more accurate estimation.
 
 
  
-Introduction
+# Introduction
 
 
 With the continuous progress of design and manufacturing technology, modern products tend to have extremely high reliability and long lifetime. At this point, accelerated degradation testing (ADT) is always employed, in which degradation data are obtained under more severe stress conditions. By modeling ADT data, the lifetime and reliability of products under normal conditions can be extrapolated and the saving of cost and time can be achieved. In ADT modeling, a reasonable description of the degradation process is vital to support credible lifetime and reliability assessments [1]. Most existing ADT models hold a general assumption that performance degradation is a memoryless Markovian process with independent increments [2-4]. However, for real engineering products, such as batteries or blast furnace walls [5], degradation typically exhibits non-Markovian properties due to their interaction with environments [6], i.e., the future degradation increment is influenced by the current or historical states. Since traditional Markovian models are inherently memoryless, they fail to describe the degradation of such dynamic systems, leading to an imprecise lifetime and reliability assessments [7]. Hence, building up an ADT model considering the non-Markovian degradation is essential for enabling accurate extrapolation of lifetime and reliability.
@@ -66,7 +66,7 @@ The superiority of the proposed ADT model and statistical analysis method is ver
 The organization of the paper is as follows. Firstly, Section 2 gives the preliminary about the FBM. Then, in Section 3, an ADT model with memory effects and UtUV is proposed, and a statistical analysis method based on the EM algorithm is presented. After that, in Section 4 and Section 5, the practicability and the superiority of the proposed methodology are verified by a simulation case and an engineering case, respectively. Finally, we conclude our work in Section 6.
 
 
-Preliminary to fractional Brownian motion
+# Preliminary to fractional Brownian motion
 Let a standard FBM denoted by  , for a given time "t ≥ 0" ,   can be defined as [25]:
 	 	(1)
 where
@@ -84,7 +84,7 @@ We can see that the standard BM is a special case of the standard FBM. In additi
 	  and  ;
 	  for any "r < t" ;
 	  for "a > 0" .
-Methodology
+# Methodology
 Model construction
 In order to describe the non-Markovian degradation process with memory effects, a standard FBM shown in Eq. (1) is introduced to construct the ADT model as follows:
 	 	(5)
@@ -179,7 +179,7 @@ Step 3. Calculate the interval estimation of reliability at a specific (1−α) 
 3.1 Obtain M reliability estimations according to Algorithm 1 based on M bootstrap estimates of θ, denoted as  .
 3.2 Sort the reliability estimation from smallest to largest based on  .
 3.3 The interval estimation of reliability at (1−α) CL is given by  , where   and   are the (100α/2)th and [100(1−α/2)]th percentiles of the sorted reliability estimation, respectively.
-Simulation study
+# Simulation study
 In this section, the proposed method is illustrated through a numerical simulation case. Furthermore, the superiority of the proposed parameter estimation method and the significance of the proposed ADT model are demonstrated.
 Simulation settings
 Detailed information on the constant-stress ADT simulation case is shown in Table 1. The degradation process exhibits short-term dependency because "H = 0.1" . Specifically, the sample sizes for each stress level (N) are set as 6 and the measurements for each sample (M) are set as 10.
@@ -274,7 +274,7 @@ M3	8.598e-6	/	2.534	1.522	0.019	/	430.897	-853.79
 In addition, the product reliability under normal stress level (40°C) obtained by the four ADT models are compared with the real values as illustrated in Fig. 4. From Fig. 4, the model M0 gives an accurate reliability assessment while the other three ADT models show significant bias, proving the significance of the proposed ADT model.
  
 Fig. 4  Reliability of the product under normal stress level (40°C) for the four ADT models with the real values.
-Engineering application
+# Engineering application
 In this section, we take the accelerated degradation data of a tuner to show the superiority of the proposed ADT model compared to other ADT models.
 Data description
 A tuner is a long-lifespan microwave electronic assembly designed primarily for reception, filtering, amplification and gain control of cable signals. Previous investigations into tuner failures have shown the significant impact of temperature on the degradation process [36]. To evaluate the reliability of the tuner, a constant-stress ADT based on temperature was performed under 4 stress levels. And, the key performance parameter, noise, was measured every ten hours by a computerized measuring system. Fig. 5 illustrates detailed degradation data, which is sourced from Fig. 6 in [36].
@@ -377,7 +377,7 @@ From the above comparative tables and figures, the following results can be obta
 	By analyzing the predictions of these four ADT models for two cross-validations, we can deduce that M0 is more suitable for lifetime and reliability assessment of this tuner than other ADT models.
 
 
-Conclusion
+# Conclusion
 
 
 This paper seeks to tackle the challenges of reliability modeling and statistical analysis of ADT with memory effects and UtUV. The following conclusions are drawn from this paper:
@@ -395,19 +395,19 @@ A tuner case is utilized to demonstrate the efficacy of the proposed methodology
 Beyond the work of this study, there exists additional issues that warrant investigation in future research. For example, we only focus on modeling constant-stress ADT data in this work. Constructing an ADT model considering memory effects for the step-stress ADT data is another interesting topic.
 
 
-Declarations of interest
+# Declarations of interest
 
 
 None.
 
 
-Acknowledgements
+# Acknowledgements
 
 
 This work was supported by the National Natural Science Foundation of China [grant number 51775020], the Science Challenge Project [grant number. TZ2018007], the National Natural Science Foundation of China [grant numbers 62073009].
 
 
-Appendix
+# Appendix
 
 
 In this section, we briefly introduce the two-step MLE method [23] for parameter estimations of ADT models with UtUV. The variables used are consistent with those in Section 3.3. In the first step, the parameters associated with the degradation process model are estimated, denoted as  . Subsequently, the remaining parameters relevant to the acceleration model are determined in the second step, denoted as  .
@@ -431,7 +431,7 @@ Specifically,   and   can be computed as:
 By substituting Eqs (42) and (43) into Eq. (41), the log-likelihood function depends solely on  .Therefore,   can be obtained by a one-dimensional search for the maximum value of Eq. (41). Then,   and   can calculated by substituting   into Eqs (42) and (43).
 
 
-References
+# References
 
 
 [1]	S. Li, Z. Chen, Q. Liu, et al. Modeling and analysis of performance degradation data for reliability assessment: A review. IEEE Access. 2020, 8: 74648-74678.
