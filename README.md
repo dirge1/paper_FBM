@@ -1,4 +1,7 @@
 # paper_FBM
+
+Due to the problems of the reterival of our paper published in Elsevier, we have to upload our paper here for reterival.
+
 Title: Reliability modeling and statistical analysis of accelerated degradation process with memory effects and unit-to-unit variability
 
 Author: Chen, Shi-Shun (a), Xiao-Yang Li (a), and Wen-Rui Xie (b). 
