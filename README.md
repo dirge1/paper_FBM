@@ -8,6 +8,7 @@ Author: Chen, Shi-Shun (a), Xiao-Yang Li (a), and Wen-Rui Xie (b).
 
 
 a School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China
+
 b School of Mathematics, Jilin University, Changchun 130012, China
 
 
