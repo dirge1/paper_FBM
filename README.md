@@ -367,17 +367,41 @@ From the above comparative tables and figures, the following results can be obta
 	According to Table 9 and Table 10, for both cross-validations, the predicted deterministic degradation trends based on M0 consistently outperform others significantly. In terms of uncertainty quantification, the upper and lower boundary predictions based on M0 are both the best for cross-validation 2, while the lower boundary predictions based on M0 are worse than those of M1 for cross-validation 1. Overall, model M0 has a superior capacity for uncertainty quantification.
 	From Fig. 10 and Fig. 11, for both cross-validations, M0 best describes the deterministic degradation trend and envelopes the real data, proving the superiority of the model M0.
 	By analyzing the predictions of these four ADT models for two cross-validations, we can deduce that M0 is more suitable for lifetime and reliability assessment of this tuner than other ADT models.
+
+
 Conclusion
+
+
 This paper seeks to tackle the challenges of reliability modeling and statistical analysis of ADT with memory effects and UtUV. The following conclusions are drawn from this paper:
-	This paper proposes a comprehensive degradation model considering the influence of external stresses, memory effects and UtUV. The memory effects are quantified by the Hurst exponent in the FBM and the UtUV is quantified in the acceleration model. Besides, a statistical analysis method based on the EM algorithm is devised to ensure the maximization of the overall likelihood function. 
-	The results of the simulation case illustrate that the memory effect estimation of the proposed statistical analysis method is more accurate than the two-step MLE method, especially when the number of measurements is small. Moreover, ignoring UtUV will lead to highly biased memory effect estimation and reliability evaluations.
-	A tuner case is utilized to demonstrate the efficacy of the proposed methodology. Findings show that the proposed ADT model gives superior predictions in both deterministic degradation trends and uncertainty quantification compared to the existing ADT models, which is more suitable for reliability assessment.
+
+
+This paper proposes a comprehensive degradation model considering the influence of external stresses, memory effects and UtUV. The memory effects are quantified by the Hurst exponent in the FBM and the UtUV is quantified in the acceleration model. Besides, a statistical analysis method based on the EM algorithm is devised to ensure the maximization of the overall likelihood function. 
+
+
+The results of the simulation case illustrate that the memory effect estimation of the proposed statistical analysis method is more accurate than the two-step MLE method, especially when the number of measurements is small. Moreover, ignoring UtUV will lead to highly biased memory effect estimation and reliability evaluations.
+
+
+A tuner case is utilized to demonstrate the efficacy of the proposed methodology. Findings show that the proposed ADT model gives superior predictions in both deterministic degradation trends and uncertainty quantification compared to the existing ADT models, which is more suitable for reliability assessment.
+
+
 Beyond the work of this study, there exists additional issues that warrant investigation in future research. For example, we only focus on modeling constant-stress ADT data in this work. Constructing an ADT model considering memory effects for the step-stress ADT data is another interesting topic.
+
+
 Declarations of interest
+
+
 None.
+
+
 Acknowledgements
+
+
 This work was supported by the National Natural Science Foundation of China [grant number 51775020], the Science Challenge Project [grant number. TZ2018007], the National Natural Science Foundation of China [grant numbers 62073009].
+
+
 Appendix
+
+
 In this section, we briefly introduce the two-step MLE method [23] for parameter estimations of ADT models with UtUV. The variables used are consistent with those in Section 3.3. In the first step, the parameters associated with the degradation process model are estimated, denoted as  . Subsequently, the remaining parameters relevant to the acceleration model are determined in the second step, denoted as  .
 In the first step, based on the property of FBM, for the ith item tested at lth stress level, we have
 	 	(35)
@@ -397,7 +421,11 @@ Specifically,   and   can be computed as:
 	 	(42)
 	 	(43)
 By substituting Eqs (42) and (43) into Eq. (41), the log-likelihood function depends solely on  .Therefore,   can be obtained by a one-dimensional search for the maximum value of Eq. (41). Then,   and   can calculated by substituting   into Eqs (42) and (43).
+
+
 References
+
+
 [1]	S. Li, Z. Chen, Q. Liu, et al. Modeling and analysis of performance degradation data for reliability assessment: A review. IEEE Access. 2020, 8: 74648-74678.
 [2]	Y. Li, H. Gao, H. Chen, et al. Accelerated degradation testing for lifetime analysis considering random effects and the influence of stress and measurement errors. Reliab. Eng. Syst. Saf. 2024, 247: 110101.
 [3]	Y. Li, S. Xu, H. Chen, et al. A general degradation process of useful life analysis under unreliable signals for accelerated degradation testing. IEEE Trans. Ind. Informatics. 2022, 19(6): 7742-7750.
