@@ -14,7 +14,7 @@ b School of Mathematics, Jilin University, Changchun 130012, China
 Email: css1107@buaa.edu.cn, leexy@buaa.edu.cn, xiewr22@mails.jlu.edu.cn 
 
 
-Journal: Applied Mathematical Modelling 2025, 138, 115788.
+Journal: Applied Mathematical Modelling, 2025, 138, 115788.
 
 Link: https://www.sciencedirect.com/science/article/pii/S0307904X24005419
 
