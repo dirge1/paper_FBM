@@ -10,11 +10,11 @@ Keywords: Accelerated degradation testing; Fractional Brownian motion; Unit-to-u
 
 Highlights
 
-	A non-Markovian accelerated degradation model with memory effect is developed.
-	Unit-to-unit variability is considered in the accelerated degradation model.
-	Ignoring unit-to-unit variability leads to biased estimation of the memory effect.
-	A statistical analysis method is proposed via expectation maximization algorithm.
-	The proposed statistical analysis method gives a more accurate estimation.
+A non-Markovian accelerated degradation model with memory effect is developed.
+Unit-to-unit variability is considered in the accelerated degradation model.
+Ignoring unit-to-unit variability leads to biased estimation of the memory effect.
+A statistical analysis method is proposed via expectation maximization algorithm.
+The proposed statistical analysis method gives a more accurate estimation.
 
  
 Introduction
