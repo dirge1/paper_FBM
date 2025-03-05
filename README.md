@@ -1,5 +1,11 @@
 # paper_FBM
-Reliability modeling and statistical analysis of accelerated degradation testing with memory effects and unit-to-unit variability
+Title: Reliability modeling and statistical analysis of accelerated degradation testing with memory effects and unit-to-unit variability
+
+Author: Chen, Shi-Shun, Xiao-Yang Li, and Wen-Rui Xie. 
+
+Journal: Applied Mathematical Modelling 138 (2025): 115788.
+
+Link: https://www.sciencedirect.com/science/article/pii/S0307904X24005419
 
 Abstract
 
