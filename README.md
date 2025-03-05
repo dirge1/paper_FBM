@@ -209,9 +209,6 @@ H	0.117	(0.012, 0.181)
 
 Furthermore, to show the effectiveness of the ADT model, the predicted deterministic degradation trends based on the point estimations, along with the upper and lower boundaries at 90% CL derived from 10000 simulated degradation paths are compared with the observed data. As depicted in Fig. 1, the predicted deterministic degradation trends primarily lie in the observed data across all accelerated stress levels, and the boundaries nicely envelope the observations. This indicates that the proposed ADT model is capable of describing the degradation law under different stress levels.
   
-                                          (a)                                                                             (b)
- 
-                                                                                    (c) 
 Fig. 1  Deterministic degradation trend, boundaries and observations: (a) 80°C (b) 100°C (c) 120°C.
 
 Next, when the critical threshold Xth is 5, we can calculate the point and interval estimation of reliability under the normal use condition (40°C) according to Algorithm 1 and Algorithm 3, as shown in Fig. 2. From Fig. 2, the reliability of the product for a given operating time can be obtained. For example, when the product is operated for 4200 hours, the lower boundary of reliability at 90% CL is 0.99. This result can provide guidance for the development of maintenance and warranty strategies.
@@ -294,13 +291,11 @@ H	2.497e-8	(1.307e-9, 0.009)
 
 From Table 5, it can be deduced that the degradation process of the tuner exhibits short-term dependency because "H < 0.5" . The short-term memory effect in the degradation process is also reported in [37]. Besides, it can be found that H is close to zero in our case. At this point, the FBM is close to a logarithmically correlated Gaussian random process [38], which has been studied and employed in financial mathematics [39].
 Then, we generate 10000 degradation paths according to the point estimations in Table 5. The predicted deterministic degradation trends and boundaries of performance with temperature and time are plotted in Fig. 6 (a). When the critical threshold Xth is 7, the performance margin can be calculated according to Eq. (12). Fig. 6 (b) illustrates the predicted deterministic degradation trends and boundaries of margin with temperature and time. It can be seen from the above figures that the degradation and corresponding boundary width increase with the increase of time and temperature.
-   
-                                        (a)                                                                             (b)
+ 
 Fig. 6  Deterministic degradation trends and boundaries of tuner performance and margin with temperature and time.
 
 Next, according to Algorithm 1, we can deduce the reliability under different temperature and time as shown in Fig. 7 (a). Specially, the reliability of the tuner under the normal use condition (20°C) with 90% confidence interval is illustrated in Fig. 7 (b). From Fig. 7 (b), we can get some valuable information for the development of maintenance and warranty strategies. For example, when the tuner is operated for 6000 hours, the lower boundary of reliability of the tuner at 90% CL is nearly 0.99.
-   
-                                            (a)                                                                       (b)
+ 
 Fig. 7  Reliability of tuner under (a) different temperature and time (b) normal stress level (20°C) with 90% confidence interval.
 Discussions
 In general, the better the model fits the degradation data, the greater the potential for the model to reflect the degradation law. Besides, it should be recalled that the ultimate goal of ADT modeling is to extrapolate the lifetime and reliability of the product under the normal use condition, so it is crucial to ensure the accuracy of the degradation prediction for unseen stress levels. To this end, we will discuss the fitting and extrapolation capabilities of the proposed model M0 compared to other existing ADT models mentioned in Section 4.3.2.
@@ -365,10 +360,10 @@ M3	0.2153	0.7809	12.5949
 Note: The bolded results depict the best ones.
 
   
-                                            (a)                                                                         (b)
+
 Fig. 10  Prediction for the cross-validation 1: (a) deterministic degradation trend (b) degradation boundary at 90% CL.
   
-                                             (a)                                                                       (b)
+
 Fig. 11  Prediction for the cross-validation 2: (a) deterministic degradation trend (b) degradation boundary at 90% CL.
 
 From the above comparative tables and figures, the following results can be obtained:
