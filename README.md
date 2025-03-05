@@ -11,10 +11,15 @@ Keywords: Accelerated degradation testing; Fractional Brownian motion; Unit-to-u
 Highlights
 
 A non-Markovian accelerated degradation model with memory effect is developed.
+
 Unit-to-unit variability is considered in the accelerated degradation model.
+
 Ignoring unit-to-unit variability leads to biased estimation of the memory effect.
+
 A statistical analysis method is proposed via expectation maximization algorithm.
+
 The proposed statistical analysis method gives a more accurate estimation.
+
 
  
 Introduction
@@ -39,9 +44,15 @@ Motivated by the above limitations, a comprehensive degradation model considerin
 
 
 The main contributions of this paper are summarized as follows:
-	An improved FBM-based degradation model is proposed for reliability estimation of ADT data with memory effects, in which the influence of external stresses are incorporated and the UtUV is quantified.
-	A statistical analysis method is presented based on the EM algorithm, in which the accurate estimation of the memory effect is achieved by maximizing the overall likelihood function rather than maximizing two partial likelihood functions separately.
-	The superiority of the proposed ADT model and statistical analysis method is verified by comparing existing methods in a numerical case and a real-world tuner reliability analysis case.
+
+
+An improved FBM-based degradation model is proposed for reliability estimation of ADT data with memory effects, in which the influence of external stresses are incorporated and the UtUV is quantified.
+
+ 
+A statistical analysis method is presented based on the EM algorithm, in which the accurate estimation of the memory effect is achieved by maximizing the overall likelihood function rather than maximizing two partial likelihood functions separately.
+
+ 
+The superiority of the proposed ADT model and statistical analysis method is verified by comparing existing methods in a numerical case and a real-world tuner reliability analysis case.
 
  
 The organization of the paper is as follows. Firstly, Section 2 gives the preliminary about the FBM. Then, in Section 3, an ADT model with memory effects and UtUV is proposed, and a statistical analysis method based on the EM algorithm is presented. After that, in Section 4 and Section 5, the practicability and the superiority of the proposed methodology are verified by a simulation case and an engineering case, respectively. Finally, we conclude our work in Section 6.
