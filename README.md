@@ -1,6 +1,6 @@
 # paper_FBM
 
-Due to the problems of the reterival of our paper published in Elsevier, we have to upload our paper here for reterival.
+Due to the problems of the reterival of our paper published in Elsevier, we have to upload our paper here for being reterived by Google. If the reterival is recovered, this will be deleted.
 
 Title: Reliability modeling and statistical analysis of accelerated degradation process with memory effects and unit-to-unit variability
 
